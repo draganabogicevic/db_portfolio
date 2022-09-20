@@ -53,11 +53,11 @@ const Contact = () => {
       }
 
     return (
-        <Box py={['50px', '50px', '50px', '150px']} px={['20px', '20px', '20px', '0']}>
-            <Flex direction='column' alignItems='center' >
+        <Box py={['50px', '50px', '50px', '150px']} px='20px'>
+            <Flex direction='column' alignItems='center' maxWidth='80%' m='auto' >
                 <Text textStyle='subTitle'>CONTACT ME</Text>
                 <Text mt='30px' textStyle='mainText' textAlign={['center', 'center', '']}>
-                    Feel free to contact me by submitting form below if you have any questions or job proposal.
+                    Feel free to contact me by submitting form below or sending me an email on dragana.bogicevic83@gmail.com if you have any questions or job proposal.
                 </Text>
             </Flex>
             <Flex maxWidth={['100%', '100%', '80%', '60%']} bg={formBg} m='auto' my='80px' borderRadius='12px' py='80px' direction='column'>
@@ -69,6 +69,9 @@ const Contact = () => {
                         <Button text='Submit' type='submit' url='#' onClick={handleSubmit}/>
                     </Box>
                 </form>
+            </Flex>
+            <Flex width={['100%', '100%', '80%']} m='auto' justifyContent='center'>
+              <Text textStyle='mainText'>Thank you!</Text>
             </Flex>
         </Box>
     )

@@ -23,10 +23,10 @@ const About = () => {
                 <Text textStyle='subTitle'>ABOUT ME</Text>
                 <Text mt='30px' textStyle='mainText' textAlign={['center', 'center', '']}>Below you can find more information about me, what I do, and which are my current skills.</Text>
             </Flex>
-            <Flex maxWidth={['100%', '100%', '80%']} justifyContent='space-between' m='auto' mt={['30px', '30px', '80px']} direction={['column', 'column', 'row']} >
-                <Box width={['100%', '100%', '50%']} mt='30px' display='flex' flexDirection='column'>
+            <Flex maxWidth={['100%', '100%', '80%']} justifyContent='space-between' m='auto' mt={['30px', '30px', '30px', '80px']} direction={['column', 'column', 'column', 'row']} >
+                <Box width={['100%', '100%','100%','50%']} mt='30px' display='flex' flexDirection='column'>
                     <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>Who am I?</Text>
-                    <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'left']}>A Frontend Web Developer focused on building Websites and Web Applications leading to the success of the overall product. With my previous experience in sales and customer service, I have learned to listen and understand clients needs and requirements. My main goal was to provide them reliability and good partnership, to gain their trust and satisfaction. With all this acquired skills and mastered frontend tools, I strongly believe I will be able to transfer any client needs in good-looking web presentation. Check out some of my work in the Projects section. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </Text>
+                    <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'justify']}>A Frontend Web Developer focused on building Websites and Web Applications leading to the success of the overall product. With my previous experience in sales and customer service, I have learned to listen and understand clients needs and requirements. My main goal was to provide them reliability and good partnership, to gain their trust and satisfaction. With all this acquired skills and mastered frontend tools, I strongly believe I will be able to transfer any client needs in good-looking web presentation. Check out some of my work in the Projects section. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </Text>
                     <Flex direction='row' mt='30px' justifyContent={['center', 'center', 'center', 'flex-start']}>
                         <Box>
                             <Button url={'/contact'} text='CONTACT ME' />
@@ -36,7 +36,7 @@ const About = () => {
                         </Box>   
                     </Flex> 
                 </Box>
-                <Box width={['100%', '100%', '40%']} my={['60px', '60px', '60px', '30px']}>
+                <Box width={['100%', '100%', '100%', '50%']} mt='50px' mb={['230px', '230px', '230px', '30px']}>
                     <Text textStyle='smallTitle' textAlign={['center', 'center']}>My Skills</Text>
                     <Flex flexWrap='wrap' alignItems='center' justifyContent='center' mt='100px'>
                         <Box className={style.stage}>
@@ -52,12 +52,14 @@ const About = () => {
                     </Flex>
                 </Box>
             </Flex>
-            <Flex maxWidth={['100%', '100%', '80%']} m='auto' pb='150px' pt='80px'>
-                <Box mt='30px' display='flex' flexDirection='column'>
-                    <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>In my free time...</Text>
-                    <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'left']}>As a mother and wife, I like to devote all my free time to my family. Cooking and preparing goodies for them is a great passion for me. I like to find new recipes on the internet and try them out with enthusiasm if everything works out.</Text>
-                    <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'left']}>Besides cooking, I like to spend my free time outdoors, in my garden, working with flowers or with different fruits. This work is something that lets me clear my head and find a place of peace.</Text>
-                    <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'left']}>Travelling is another great passion. I enjoy being changed by travelling. I can never get enough of getting to know new regions, their culture, their people, their language and their food.</Text>
+            <Flex maxWidth={['100%', '100%', '90%']} m='auto' py='80px' >
+                <Box mt='30px' display='flex' flexDirection='column' className={style.freeTimeSection}>
+                    <Box maxWidth={['100%', '100%', '90%']} m='auto' py='80px' px={['20px', '20px', 0]} >
+                        <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>In my free time...</Text>
+                        <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'justify']}>As a mother and wife, I like to devote all my free time to my family. Cooking and preparing goodies for them is a great passion for me. I like to find new recipes on the internet and try them out with enthusiasm if everything works out.</Text>
+                        <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'justify']}>Besides cooking, I like to spend my free time outdoors, in my garden, growing with flowers or with various fruits. This is something that lets me clear my head and find a place of peace.</Text>
+                        <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'justify']}>Travelling is another great passion of mine. I especially enjoy the change that it brings, can never get enough exploring new regions, diverse cultures, people, languages and food.</Text>
+                    </Box>
                 </Box>
             </Flex>
         </Box>

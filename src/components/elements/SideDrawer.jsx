@@ -32,8 +32,8 @@ const SideDrawer = ({ display, padding, children }) => {
 const DrawerHeader = ({ onClose }) => (
     <Box maxWidth='90%' m='auto' display='flex' justifyContent='space-between'>
         <Box my='20px' display='flex' alignItems='center'>
-            <Image alt='logo' borderRadius='100%' boxSize='70px' src={Res.images.logo} />
-            <Text textStyle='smallText' ml='30px'>DaDaBo</Text>
+            <Text textStyle='smallText'>DraganaB</Text>
+            <Image alt='logo' borderRadius='100%' boxSize='70px' ml='30px' src={Res.images.logo} />
         </Box>
         <Box display='flex' alignItems='center'>
             <MenuBurger onClick={onClose} fontSize="32px" width="32px" height="32px" />
