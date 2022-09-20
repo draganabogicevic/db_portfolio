@@ -27,7 +27,7 @@ const About = () => {
                 <Box width={['100%', '100%', '50%']} mt='30px' display='flex' flexDirection='column'>
                     <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>Who am I?</Text>
                     <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'left']}>A Frontend Web Developer focused on building Websites and Web Applications leading to the success of the overall product. With my previous experience in sales and customer service, I have learned to listen and understand clients needs and requirements. My main goal was to provide them reliability and good partnership, to gain their trust and satisfaction. With all this acquired skills and mastered frontend tools, I strongly believe I will be able to transfer any client needs in good-looking web presentation. Check out some of my work in the Projects section. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </Text>
-                    <Flex direction='row' mt='30px'>
+                    <Flex direction='row' mt='30px' justifyContent={['center', 'center', 'center', 'flex-start']}>
                         <Box>
                             <Button url={'/contact'} text='CONTACT ME' />
                         </Box>
@@ -55,7 +55,9 @@ const About = () => {
             <Flex maxWidth={['100%', '100%', '80%']} m='auto' pb='150px' pt='80px'>
                 <Box mt='30px' display='flex' flexDirection='column'>
                     <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>In my free time...</Text>
-                    <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'left']}></Text>
+                    <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'left']}>As a mother and wife, I like to devote all my free time to my family. Cooking and preparing goodies for them is a great passion for me. I like to find new recipes on the internet and try them out with enthusiasm if everything works out.</Text>
+                    <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'left']}>Besides cooking, I like to spend my free time outdoors, in my garden, working with flowers or with different fruits. This work is something that lets me clear my head and find a place of peace.</Text>
+                    <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'left']}>Travelling is another great passion. I enjoy being changed by travelling. I can never get enough of getting to know new regions, their culture, their people, their language and their food.</Text>
                 </Box>
             </Flex>
         </Box>

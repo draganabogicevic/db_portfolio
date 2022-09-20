@@ -19,8 +19,8 @@ const projects = [
         image: Res.images.gitHubSearcher,
         title: 'GitHub Searcher',
         technology: 'HTML/CSS/Bootstrap/JavaScript/React',
-        text: 'Simple SPA application made using HTML/CSS/Chakra Ui/JavaScript/React. Application is show case of using free REST API and displaying fetched data. There are features like panagination and bookmarking selected data with possibility to save it and display it even after closing page.',
-        link: '../../assets/gitHubSearcher.png',
+        text: 'Simple SPA application made using HTML/CSS/Bootstrap/JavaScript/React. This application was a task for job interview. It main task is to use free git hub api, to search users and repos and show results in custom Ui.',
+        link: 'https://modest-raman-ec68e2.netlify.app/',
     },
     {
         image: Res.images.readerApp,
@@ -33,8 +33,8 @@ const projects = [
         image: Res.images.intreviewReports,
         title: 'Interview Reports',
         technology: 'HTML/CSS/Bootstrap/JavaScript/React',
-        text: 'Simple SPA application made using HTML/CSS/Chakra Ui/JavaScript/React. Application is show case of using free REST API and displaying fetched data. There are features like panagination and bookmarking selected data with possibility to save it and display it even after closing page.',
-        link: '../../assets/gitHubSearcher.png',
+        text: 'This SPA application was made by using HTML/CSS/Bootstrap/JavaScript/React and it was the final exam at BIT boot camp. The purpose of app is interview tracking of candidates and reports with posibility to delete, change existing or edit new reports. The application has login page with autorization and different authorization levels. There is also wizard example for adding new reports.',
+        link: 'https://63297dd8f476dc6ae7c5d79e--lighthearted-beignet-2c23eb.netlify.app/',
     },
 ]
 
