@@ -117,8 +117,4 @@
     transform: rotateX(-90deg) translateZ(100px);
   }
 
-  .freeTimeSection {
-    background-image: url(../../assets/grapes.jpg);
-    background-size: cover;
-    border-radius: 20px;
-  }
+

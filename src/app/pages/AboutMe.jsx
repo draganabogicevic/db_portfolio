@@ -1,9 +1,14 @@
 import { Button, ModalButton } from '../../components/UI'
+import Res from '../../res/Res'
 
 import { Box, Flex, Text, useColorModeValue } from '@chakra-ui/react'
 
 import style from './AboutMe.module.css'
 const About = () => {
+
+    const bgPhoto = useColorModeValue(Res.images.grapes, Res.images.grapesDark)
+    const textColorFreeTime = useColorModeValue('black', 'black')
+
 
     const downloadCV = () => {
         fetch('CVDraganaBogicevic.pdf').then(response => 
@@ -53,8 +58,16 @@ const About = () => {
                 </Box>
             </Flex>
             <Flex maxWidth={['100%', '100%', '90%']} m='auto' py='80px' >
-                <Box mt='30px' display='flex' flexDirection='column' className={style.freeTimeSection}>
-                    <Box maxWidth={['100%', '100%', '90%']} m='auto' py='80px' px={['20px', '20px', 0]} >
+                <Box 
+                    mt='30px' 
+                    display='flex' 
+                    flexDirection='column' 
+                    bgImage={bgPhoto}
+                    bgRepeat='no-repeat'
+                    bgSize='cover'
+                    borderRadius='20px'
+                >
+                    <Box maxWidth={['100%', '100%', '90%']} m='auto' py='80px' px={['20px', '20px', 0]} color={textColorFreeTime}>
                         <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>In my free time...</Text>
                         <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'justify']}>As a mother and wife, I like to devote all my free time to my family. Cooking and preparing goodies for them is a great passion for me. I like to find new recipes on the internet and try them out with enthusiasm if everything works out.</Text>
                         <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'justify']}>Besides cooking, I like to spend my free time outdoors, in my garden, growing with flowers or with various fruits. This is something that lets me clear my head and find a place of peace.</Text>

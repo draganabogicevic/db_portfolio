@@ -7,5 +7,6 @@ export default {
     gitHubSearcher: require('../assets/gitHubSearcher.png'),
     readerApp: require('../assets/readerApp.png'),
     intreviewReports: require('../assets/interviewReports.png'),
-    grapes: require('../assets/grapes.jpg')
+    grapes: require('../assets/grapes.jpg'),
+    grapesDark: require('../assets/grapesDark.jpg'),
 }
