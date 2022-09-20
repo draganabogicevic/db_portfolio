@@ -1,0 +1,19 @@
+.socialNetworksBox  {
+    animation: 0.5s showBox ease-in-out;
+}
+.notHoveredBox {
+    position: absolute;
+    left: -40px;
+}
+
+@keyframes showBox {
+    0% {
+        transform: translateX(-30px);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+}

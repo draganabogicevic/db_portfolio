@@ -1,0 +1,35 @@
+.textFromUp {
+    animation: 0.5s anim-lineDown ease-out;   
+}
+
+@keyframes anim-lineDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    20% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.textFromBelow {
+    animation: 0.5s anim-lineUp ease-out;   
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    20% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
