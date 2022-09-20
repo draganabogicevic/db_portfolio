@@ -55,7 +55,7 @@ const HomePage = () => {
                     <Box textStyle='mainTitle' maxWidth='700px' m='auto' textAlign='center' mt='50px'>
                         <Text>HELLO, I'M DRAGANA <Text as='span' fontSize='55px'>B.</Text></Text>
                     </Box>
-                    <Text textAlign={['justify', 'justify', 'justify', 'center']} mt={['30px', '30px', '30px', '20px']} mx={['0', '0', '0', '50px']} textStyle='mainText'>Junior front end developer with deep experience in sales, especially B2B, that has been drawn to front-end development.
+                    <Text textAlign={['justify', 'justify', 'justify', 'center']} mt={['30px', '30px', '30px', '20px']} mx={['0', '0', '0', '50px']} textStyle='mainText'>Junior front-end developer with deep experience in sales, especially B2B, that has been drawn to front-end development.
                         Astonished by getting the ideas based on predefined concepts, I enjoy shaping them into beatiful websites.
                         I am very dedicated in experimenting to make their appearance and functionality flawless and to bring the best UI/UX experience.
                     </Text>

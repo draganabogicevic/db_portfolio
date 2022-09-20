@@ -69,7 +69,7 @@ const About = () => {
                 >
                     <Box maxWidth={['100%', '100%', '90%']} m='auto' py='80px' px={['20px', '20px', 0]} color={textColorFreeTime}>
                         <Text textStyle='smallTitle' textAlign={['center', 'center', 'left']}>In my free time...</Text>
-                        <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'justify']}>As a mother and wife, I like to devote all my free time to my family. Cooking and preparing goodies for them is a great passion for me. I like to find new recipes on the internet and try them out with enthusiasm if everything works out.</Text>
+                        <Text textStyle='description' mt='30px' textAlign={['center', 'center', 'justify']}>As a mother and wife, I like to devote my free time to my family. Cooking and preparing goodies for them is a great passion for me. I like to find new recipes on the internet and try them out with enthusiasm if everything works out.</Text>
                         <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'justify']}>Besides cooking, I like to spend my free time outdoors, in my garden, growing with flowers or with various fruits. This is something that lets me clear my head and find a place of peace.</Text>
                         <Text textStyle='description' mt='10px' textAlign={['center', 'center', 'justify']}>Travelling is another great passion of mine. I especially enjoy the change that it brings, can never get enough exploring new regions, diverse cultures, people, languages and food.</Text>
                     </Box>
